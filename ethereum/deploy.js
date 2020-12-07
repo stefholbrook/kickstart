@@ -20,7 +20,6 @@ const deploy = async () => {
 
   console.log('Interface: ', compiledFactory.interface)
   console.log('Contract deployed to: ', result.options.address)
-  // deployed to: 0x8E52dea4EAcB78938b7E6023ACf42C4dF86B366a
 }
 
 deploy()
